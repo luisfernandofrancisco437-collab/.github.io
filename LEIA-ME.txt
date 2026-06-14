@@ -1,0 +1,26 @@
+PUBLICACAO BAMBAM HOTDOG
+
+ARQUIVOS FINAIS
+- index.html: sistema administrativo.
+- app.html: app dos clientes (endereco recomendado).
+- cliente/index.html: app dos clientes.
+
+COMO PUBLICAR
+1. Envie a pasta "publicacao" completa para a hospedagem.
+2. Mantenha a pasta "cliente" dentro dela.
+3. O sistema ficara em: https://seu-dominio.com/index.html
+4. O app ficara em: https://seu-dominio.com/app.html
+5. Publique index.html e app.html juntos na mesma pasta.
+
+IMPORTANTE
+- Cada parte usa somente um arquivo index.html.
+- CSS, JavaScript, icone e imagens estao incorporados nos arquivos.
+- Sistema e app precisam permanecer no mesmo dominio para compartilhar pedidos.
+- Para gerar novamente depois de alteracoes, execute gerar_publicacao.js.
+
+LIMITACAO
+Esta versao usa armazenamento do navegador. Pedidos feitos em celulares de
+clientes diferentes nao chegam ao computador da loja pela internet sem um
+servidor com banco de dados. Para operacao publica real, e necessario conectar
+os dois arquivos a um backend. A integracao local funciona no mesmo navegador,
+dispositivo e dominio.
